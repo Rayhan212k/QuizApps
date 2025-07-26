@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    android:layout_margin="0sp"
+    tools:context=".Admin_Rayhan_Profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/backHomeIconID"
+            android:layout_width="0sp"
+            android:layout_height="40sp"
+            android:layout_weight="1.4"
+            android:gravity="center"
+            android:background="@drawable/backbuttonlogo1"
+            android:layout_marginLeft="4sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#399FF1"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:layout_width="330sp"
+            android:layout_height="120sp"
+            android:src="@drawable/quizlogo2"/>
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="76sp"
+        android:src="@drawable/loginbackground1"
+        android:scaleType="centerCrop"
+        android:alpha="0.5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Admin Info"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#0989F1"
+            android:textSize="40sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:layout_width="160sp"
+                android:layout_height="160sp"
+                android:src="@drawable/adminrayhan"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="5sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Md. Rayhan"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_marginBottom="10sp"
+                android:layout_marginTop="10sp"
+                android:textColor="#0989F1"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" BSc in CSE at DIU "
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:layout_marginBottom="20sp"
+                android:textColor="#826BE6"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="68sp"
+            android:src="@drawable/loginbackground1"
+            android:scaleType="centerCrop"
+            android:alpha="0.5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Contact Info"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginBottom="10sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#0989F1"
+            android:textSize="35sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="140sp"
+            android:src="@drawable/loginbackground1"
+            android:scaleType="centerCrop"
+            android:alpha="0.5"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+                    android:text="Phone: "
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#0989F1"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.6"
+                    android:text="01941869434"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#7547DF"
+                    android:textSize="21sp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+                    android:text="Gmail: "
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#0989F1"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.6"
+                    android:text="rayhan212k@gmail.com"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#7547DF"
+                    android:textSize="21sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+                    android:text="Location: "
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#0989F1"
+                    android:textSize="23sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.6"
+                    android:text="Dhaka, Bangladesh"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="#7547DF"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create by Md. Rayhan"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="180sp"
+        android:layout_marginRight="75sp"
+        android:layout_marginTop="5sp"
+        android:typeface="normal"
+        android:textColor="#E91E63"
+        android:textSize="13sp"/>
+
+</LinearLayout>
+
+
+
+

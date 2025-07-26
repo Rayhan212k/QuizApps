@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/account_icon"
+        android:title="About" />
+
+    <item
+        android:id="@+id/RecentResult"
+        android:icon="@drawable/notepad"
+        android:title="Recent Result" />
+
+    <item
+        android:id="@+id/AllResult"
+        android:icon="@drawable/economy"
+        android:title="All Result" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share_icon"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/RateUs"
+        android:icon="@drawable/rateus_icon"
+        android:title="Rate Us" />
+
+    <item
+        android:id="@+id/LogOut"
+        android:icon="@drawable/logout_icon"
+        android:title="Log Out" />
+
+
+
+</menu>
+
+

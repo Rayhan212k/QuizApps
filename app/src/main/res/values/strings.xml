@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Online Quiz</string>
+    <string name="User_name">Md. Rayhan</string>
+    <string name="gmail_name">rayhan212k@gmail.com</string>
+    <string name="open"></string>
+    <string name="close"></string>
+
+    <string-array name="DropDownValues">
+        <item>Select</item>
+        <item>Data Mining</item>
+        <item>Pervasive Computing</item>
+        <item>Compiler Design</item>
+    </string-array>
+
+    <string name="history_scrollview_description">History Container</string>
+
+</resources>
